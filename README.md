@@ -1,3 +1,47 @@
-Antes de executar qualquer um dos arquivos, tenha certeza que o Python 3.12 está instalado e adicionado ao PATH do windows, isso pode ser feito utilizando a Microsoft Store caso esteja utilizando o Windows. 
-Após isso execute o arquivo "setup.bat". Este irá criar o ambiente virtual e instalar as bibliotecas. Este arquivo pode demorar um pouco a executar, por isso aguarde até que a mensagem "Pressione qualquer tecla para continuar" apareça no prompt de comando. 
-Depois disso o ambiente já estará configurado e você poderá executar o programa através do arquivo "controle_metas.bat".
+
+# Controle de Metas
+
+Este projeto é um modelo em python usado para criar e gerenciar as tabelas dimensões de um Data Mart utilizado para medição e acompanhamento de metas e produção de colaboradores de determinadas equipes, em um sistema de medição por Notas de Serviço (NS) e Unidades de Serviço (US).
+
+## Funcionalidades:
+
+- Gerenciamento de relacionamento de tabelas de dimensão, garantindo integridade entre as entidades envolvidas.
+- Fácil aplicação de modelos CRUD entre as entidades envolvidas.
+- Exportação para modelos .xlsx das tabelas tratadas.
+
+## Pré-requisitos
+
+Antes de iniciar, você precisa ter o seguinte software instalado:
+
+- Python 3.12.3 ou superior
+- Bibliotecas Python: Dependências listadas no arquivo de setup
+
+## Configuração
+
+Clone o repositório para sua máquina local usando o seguinte comando:
+
+```bash
+git clone https://github.com/caiocdias/controle_metas
+cd controle_metas
+```
+
+Instale as dependências necessárias com:
+
+```bash
+.\setup.bat
+```
+
+## Uso
+
+Para iniciar a macro, execute o seguinte comando no diretório do projeto:
+
+```bash
+.\controle_metas.bat
+```
+
+Siga as instruções na tela para configurar e executar as automações.
+
+## Contato
+E-mails do Responsável - caiocd007@gmail.com
+
+GitHub: [https://github.com/caiocdias](https://github.com/caiocdias)
